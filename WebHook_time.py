@@ -1,3 +1,4 @@
+# The main code
 from flask import Flask, request, make_response, jsonify, render_template
 import time as t
 from random import randrange as rnd
