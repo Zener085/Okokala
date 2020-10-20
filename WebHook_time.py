@@ -54,7 +54,7 @@ def search_clinic(adress):
 
 @app.route('/')
 def index():
-    return 'Яндекс круче!'
+    return 'Яндекс круче!' # Just a joke
 
 def shutting_down():
     post = request.get_json()
