@@ -124,7 +124,7 @@ def wake_up():
             text = text + sleep
     return {'fulfillmentText': text}
 
-def hi_man():
+def hi_man(): # Idk for what we create this function
     time_str = str(t.localtime())
     time_hour = int(time_str.split(',')[3].split('=')[1])
     curHr = time_hour
